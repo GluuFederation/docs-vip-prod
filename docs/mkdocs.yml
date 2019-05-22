@@ -1,0 +1,36 @@
+# Project information
+site_name: Gluu Server 4.0 VIP Feature Docs
+site_description: Documentation for Gluu Server a la carte VIP features
+
+# Copyright
+copyright: Copyright &copy; 2019, Gluu, Inc.
+
+# Repository
+repo_name: GluuFederation/docs-casa-prod
+repo_url: https://github.com/GluuFederation/docs-vip-prod/
+edit_uri: edit/4.0/docs/source
+docs_dir: source
+
+# Configuration
+theme: 
+    name: material
+    custom_dir: theme
+    palette:
+        primary: 'green'
+        accent: 'green'
+    logo: 'gluu.jpg'
+    favicon: 'favicon.ico'
+extra:
+    version: '4.0'
+    
+# Extensions    
+markdown_extensions:
+- admonition
+- toc:
+     permalink: '#'
+- pymdownx.superfences
+
+# Navigation Menu
+nav:
+- 'Versions':
+    - '4.0': 'https://gluu.org/docs/vip/4.0/'
