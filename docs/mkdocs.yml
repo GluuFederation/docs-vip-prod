@@ -6,7 +6,7 @@ site_description: Documentation for Gluu Server a la carte VIP features
 copyright: Copyright &copy; 2019, Gluu, Inc.
 
 # Repository
-repo_name: GluuFederation/docs-casa-prod
+repo_name: GluuFederation/docs-vip-prod
 repo_url: https://github.com/GluuFederation/docs-vip-prod/
 edit_uri: edit/4.0/docs/source
 docs_dir: source
